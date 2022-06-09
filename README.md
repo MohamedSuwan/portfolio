@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="style.css">
-
+<body style="background_color:black">
 <!-- ...................................................................................................... first main div -->
 <div class="leftdiv">
 <div class="card">
@@ -241,7 +241,7 @@ Autoamtion, controlling the computer, mouse, keyboard, making a macro-like proce
 
 
 </div>
-
+</body>
 <br>
 <br>
 <br>
