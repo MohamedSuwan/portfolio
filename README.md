@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="style.css">
-<body style="background-color:powderblue;">
+<body style="background-color:#0D1117;">
 <!-- ...................................................................................................... first main div -->
 <div class="leftdiv">
 <div class="card">
