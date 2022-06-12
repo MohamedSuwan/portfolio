@@ -140,7 +140,7 @@ header {
   box-sizing: border-box;
   background-color: #0D1117;
   position: fixed;
- 
+  align-items: center;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -156,6 +156,7 @@ header nav ul {
   height: 90%;
   display: flex;
   justify-content:space-evenly;
+  align-items: center;
   margin: 0;
   /* border: 2px solid red; */
 }
