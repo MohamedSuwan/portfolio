@@ -52,13 +52,17 @@ header {
   justify-content: space-around;
 }
 
-.ul a {
+/* .ul a {
   color: white;
-}
+} */
 
 .ul li {
   padding: 5px;
-  margin-left: 10px;
+  margin-left: 15px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  align-self: center;
+
 }
 
 .ul li:hover {
@@ -66,27 +70,8 @@ header {
   transition: 0.3s;
 }
 
-#login,
-#signup {
-  border-radius: 5px;
-  padding: 5px 8px;
-}
 
-#login {
-  border: 1px solid #498afb;
-}
 
-#signup {
-  border: 1px solid #ff3860;
-}
-
-#signup a {
-  color: #ff3860;
-}
-
-#login a {
-  color: #498afb;
-}
 
 #hamburger-icon {
   margin: auto 0;
@@ -136,7 +121,7 @@ header {
   margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   header nav {
     display: none;
   }
@@ -144,4 +129,4 @@ header {
   #hamburger-icon {
     display: block;
   }
-}
+} */
