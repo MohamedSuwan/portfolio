@@ -137,8 +137,8 @@ font-family: sans-serif;
 
 header {
   width: 100%;
-  min-height: 10%;
-  height: 10%;
+  min-height: 8%;
+  height: 8%;
   box-sizing: border-box;
   background-color: #0D1117;
   position: fixed;
