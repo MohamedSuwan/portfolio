@@ -297,7 +297,7 @@ header {
  
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 100px) {
   header nav {
     display: none;
   }
