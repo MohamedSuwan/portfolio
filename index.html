@@ -3,6 +3,7 @@
 
 <head>
   
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -92,7 +93,7 @@
   <br>
 
 
-<div class="maindiv">
+<div class="maindiv" data-aos="fade-up">
   <h1 >
     ABOUT ME
   </h1>
@@ -129,15 +130,15 @@
     <br >
     <br>
     <br>
-    <div class="maindiv">
+    <div class="maindiv" data-aos="fade-up" data-aos-duration="1000">
 
 
       <h1>PROJECTS</h1>
     </div>
 <!-- ...................................................................................................... first main div -->
-<div class="leftdiv">
+<div class="leftdiv" data-aos="fade-up">
   
-<div class="card">
+<div class="card" data-aos="fade-left">
 <br>
 <h1><a href="https://github.com/MohamedSuwan/Weather-Data">Historical Weather Data Analysis</a> <i class="fa-solid fa-sun-plant-wilt"></i></h1>
  
@@ -219,7 +220,7 @@ useful data for visualization and reporting using pandas and Matplotlib</li>
 
 <!-- ...................................................................................................... second main div -->
 
-<div class="card">
+<div class="card" data-aos="fade-right">
     <br>
 <h1><a href="https://github.com/MohamedSuwan/leaked-FB-data-analysis">Leaked Facebook Data Analysis</a> <i class="fa-brands fa-facebook-square"></i></h1>
 
@@ -283,7 +284,7 @@ the exploratory analysis will not show sensitive data like the emails or phone n
 
  <!-- ...................................................................................................... third main div -->
 
- <div class="card" id="python">
+ <div class="card" id="python" data-aos="fade-left">
     <br>
 <h1><a href="https://github.com/MohamedSuwan/codewars">Python</a> <i class="fa-brands fa-python"></i></h1>
 
@@ -346,7 +347,7 @@ liners “Pythonic way”
 <br>
 <br>
 <!-- ...................................................................................................... fourth main div -->
-<div class="card">
+<div class="card" data-aos="fade-right">
     <br>
 <h1><a href="https://github.com/MohamedSuwan/Web-Scraping-Automation">Web Scraping and Automation</a> <i class="fa-brands fa-chrome"></i> <i class="fa fa-cog fa-spin"></i></h1>
 
@@ -386,7 +387,7 @@ Autoamtion, controlling the computer, mouse, keyboard, making a macro-like proce
 <br>
 <br>
 <hr>
-<div class="maindiv">
+<div class="maindiv" data-aos="fade-up">
   <br>
 <h1 id="contact">Contact</h1>
 <hr style="width: 175px;">
@@ -444,6 +445,13 @@ And any job type:
 <h3 style="text-align:center ;"> ©  2022 Mohamed Suwan </h3>
 <!-- <script src="index.js"></script> -->
 <br>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration:1500,
+    once:true,
+  });
+</script>
 </body>
  <hr>    
  <br>  
