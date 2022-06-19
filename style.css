@@ -1,4 +1,47 @@
 
+#particles-js{
+  width: auto;
+  height: 100vh;
+  /* background-image: url(logo.png); */
+}
+.h11{
+  /* width: 70%; */
+ 
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%); 
+
+}
+.h1{
+  /* width: 70%; */
+ 
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%,-50%); 
+
+}
+.h2{
+  /* width: 70%; */
+ 
+  position: absolute;
+  left: 40%;
+  top: 60%;
+  transform: translate(-50%,-50%); 
+
+}
+.h2{
+  /* width: 70%; */
+ 
+  position: absolute;
+  left: 60%;
+  top: 60%;
+  transform: translate(-50%,-50%); 
+
+}
+
+
 
 .maindiv{
   width: 70%;
