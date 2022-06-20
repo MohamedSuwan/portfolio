@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 
 .arrows {
 	width: 60px;
