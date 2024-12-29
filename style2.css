@@ -207,9 +207,9 @@ html {
   }
   
   :root {
-    background-color: #0D1117;
+    background-color: #051428;
     margin: 0;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     
   }
   /* 
@@ -237,13 +237,19 @@ html {
   
   body   
   {  
-  height: 125vh;  
+  /* height: 125vh;   */
   margin-top: 80px;  
   background-size: cover;  
   /* font-family: sans-serif;   */
   /* font-family: 'Open Sans', sans-serif; */
   
   font-family: 'Source Sans Pro', sans-serif;
+
+  /* height: 300vh; */
+    /* Ensure the gradient covers the full height of the viewport */
+    margin: 0;
+    /* Remove default margins */
+    background: linear-gradient(to bottom, #071A2B, #030F18);
   }  
   
   
@@ -252,11 +258,12 @@ html {
     min-height: 70px;
     height: 8%;
     box-sizing: border-box;
-    background-color: #0D1117;
+    /* background-color: #030F18; */
     position: fixed;
     align-items: center;
     display: flex;
     justify-content: space-between;
+    background: linear-gradient(to bottom, #071A2B, #030F18);
     z-index: 1000;
    
     top: 0px;
@@ -490,3 +497,21 @@ html {
       transform: scale(1.1);
     }
   }  */
+
+    .neon {
+      /* font-size: 24px; */
+      color: #ffffff;
+      /* text-align: center; */
+      /* text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000, 0 0 20px #000000, 0 0 30px #fff, 0 0 40px #fff, 0 0 55px #fff, 0 0 75px #fff; */
+      text-shadow:  0 0 15px #000000, 0 0 20px #000000, 0 0 40px #fff, 0 0 75px #fff;
+      /* background-color: black; */
+      /* To better see the neon effect */
+      padding: 50px;
+
+      position: absolute;
+    left: 50%;
+    top: 50%;
+      transform: translate(-58%,-70%); 
+    font-size: 50px;
+    }
+
