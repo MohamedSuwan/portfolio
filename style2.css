@@ -101,15 +101,11 @@ html {
     transform: translate(-50%,-50%); 
   
   }
-  
-  
-  
   .maindiv{
     width: 70%;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-  
   }
 
   .transparent-div {
@@ -129,8 +125,6 @@ html {
   margin-right: auto;
   /* background-color: #0D1117; */
   }
-  
-  
   .card {
       box-shadow: 0px 0px 0px 1px rgb(255, 255, 255);
     transition: 0.3s;
@@ -150,9 +144,7 @@ html {
     color: rgb(255, 255, 255);
   }
   
-  
-  
-  
+
   img {
     border-radius: 10px 10px 10px 10px;
     margin-left: auto;
@@ -177,6 +169,7 @@ html {
   /*change the number below to scale to the appropriate size*/ 
   .thumbnail:hover { 
   transform: scale(1.5); 
+  
   }
   
   h1 {
@@ -436,46 +429,8 @@ html {
   padding: 15px;
   }
 
-    .inner-div {
-      width: 45%;
-      /* Adjust as needed */
-      height: 100px;
-      /* Example height */
-      background-color: lightgray;
-      /* Example background color */
-      display: flex;
-      justify-content: center;
-      /* Center content horizontally */
-      align-items: center;
-      margin: 10px;
-      /* Center content vertically */
-    }
 
-  .container {
-    display: flex;
-    flex-wrap: wrap; /* Allow wrapping of inner divs */
-    justify-content: space-around;
-    /* Evenly distribute the inner divs */
-    align-items: center;
-    /* Center the divs vertically if they have different heights */
-    height: 100vh;
-    /* Full viewport height for demonstration */
-  }
 
-@media (orientation: portrait) {
-  .container {
-    flex-direction: column;
-    /* Stack divs vertically */
-    justify-content: center;
-    /* Center vertically */
-  }
-
-  .inner-div {
-    width: 80%;
-    /* Adjust width for portrait mode */
-    margin-bottom: 20px;
-    /* Add space between divs */
-  }}
 
     .carousel {
       display: flex;
@@ -484,6 +439,14 @@ html {
       height: 80vh;
       overflow: hidden;
       position: relative;
+      transition-property: all; 
+      transition-duration: .5s; 
+      transition-timing-function: ease; 
+      -webkit-transition-property: all; 
+      -webkit-transition-duration: .5s; 
+      -webkit-transition-timing-function: ease; 
+      /* new */
+      
     }
   
     .carousel img {
@@ -498,3 +461,32 @@ html {
       opacity: 1;
       transform: scale(1.5);
     }
+    .carousel:hover { 
+      transform: scale(1.4); 
+      transition-property: all; 
+      transition-duration: .5s; 
+      transition-timing-function: ease; 
+      -webkit-transition-property: all; 
+      -webkit-transition-duration: .5s; 
+      -webkit-transition-timing-function: ease; 
+    }
+    
+      
+
+   
+
+  @media (orientation: portrait) {
+    .carousel {
+      height: 35vh;
+     
+    } }
+/* 
+    .carousel img {
+      max-width: 80%;
+      max-height: 80%;
+    }
+
+    .carousel img.active {
+      transform: scale(1.1);
+    }
+  }  */
