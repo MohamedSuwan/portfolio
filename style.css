@@ -95,7 +95,7 @@ html {
 
 
 @media screen and (max-width: 1080px) { .h11 { font-size: 80px;left: 30vw;transform: translate(-25%, -50%);} }
-@media screen and (max-width: 1080px) { h3 { font-size: 24px;} }
+@media screen and (max-width: 1080px) { h3 { font-size: 18px;} }
 
 .h21 {
   position: absolute;
@@ -125,6 +125,8 @@ html {
   margin-right: auto;
 
 }
+@media screen and (max-width: 1080px) { .maindiv { width: 90%;} }
+
 
 .leftdiv {
   width: 70%;
