@@ -51,27 +51,6 @@
 <!-- above here -->
   <div id="particles-js">
     <!-- 1 -->
-    <h3 class="about">
-      <pre class="dynamic-tex" style="white-space: pre-wrap;">
-Hi, my name is Mohamed, I hold a Bachelor’s degree in Computer Engineering.
-
-Fascinated by the challenge of uncovering hidden insights, I pursued a data analysis bootcamp and honed my skills in Python, SQL and Power BI.
-As a data analyst, My goal is to leverage these skills to improve results, make the right decisions and save costs. 
-
-Graduated AWS re/start program in November 2022, and obtained AWS Certified Cloud Practitioner Certification.
-
-I'm currently working as a data officer at Collateral Repair Project, My responsibilities include:
-  
-  <ul style= "padding-left: 2em ;"><li>Analyzing data (collection, cleaning, analysis, visualization)</li>
-  <li>Managing and building data pipelines from various sources including databases, APIs, webhooks, Google Sheets, surveys and files</li>
-  <li>Automation: reports, ETL and web scraping</li>
-  <li>Building reports, dashboards and presentations</li>
-  <li>Reconcile monthly transactions to identify and resolve errors ensuring accurate financial reporting</li>
-  <li>Managing user accounts and access permissions across Google Workspace, including Gmail, Drive, and other essential tools. I ensure secure collaboration by resolving any access issues on shared drives.</li>
-  <li>Managing and configuring user permissions in our attendance app for accurate data tracking. Additionally, I create and manage VPN profiles for authorized remote access.</li>
-  </u>
-</pre>
-</h3>
 
 
     <!-- 2 -->
@@ -83,10 +62,12 @@ I'm currently working as a data officer at Collateral Repair Project, My respons
     <a class="h22" href="https://github.com/MohamedSuwan" target="_blank"><i
         class="fa-brands fa-github-square fa-5x"></i> </a>
     <svg class="arrows">
+      
       <path class="a1" d="M0 0 L30 32 L60 0"></path>
       <path class="a2" d="M0 20 L30 52 L60 20"></path>
       <path class="a3" d="M0 40 L30 72 L60 40"></path>
-    </svg>
+    </svg>    
+    <!-- <i class="fa-solid fa-angles-down fa-bounce fa-5x arrows" style="color: #2994D1;"></i> -->
 
 
   </div>
@@ -103,15 +84,15 @@ I'm currently working as a data officer at Collateral Repair Project, My respons
     <hr style="width: 200px;">
     <br>
     <h3>
-      <pre class="dynamic-text" style="white-space: pre-wrap;">
-  Hi, my name is Mohamed, I hold a Bachelor’s degree in Computer Engineering.
-      
-  Fascinated by the challenge of uncovering hidden insights, I pursued a data analysis bootcamp and honed my skills in Python, SQL and Power BI.
-  As a data analyst, My goal is to leverage these skills to improve results, make the right decisions and save costs. 
-  
-  Graduated AWS re/start program in November 2022, and obtained AWS Certified Cloud Practitioner Certification.
-  
-  I'm currently working as a data officer at Collateral Repair Project, My responsibilities include:
+    <pre style="white-space: pre-wrap;">
+Hi, my name is Mohamed, I hold a Bachelor’s degree in Computer Engineering.
+    
+Fascinated by the challenge of uncovering hidden insights, I pursued a data analysis bootcamp and honed my skills in Python, SQL and Power BI.
+As a data analyst, My goal is to leverage these skills to improve results, make the right decisions and save costs. 
+
+Graduated AWS re/start program in November 2022, and obtained AWS Certified Cloud Practitioner Certification.
+
+I'm currently working as a data officer at Collateral Repair Project, My responsibilities include:
   
   <ul style=" padding-left: 2em;"><li><b></b>Analyzing data</b> (collection, cleaning, analysis, visualization)</li>
   <li>Managing and building data pipelines from various sources including databases, APIs, webhooks, Google Sheets, surveys and files</li>
@@ -144,19 +125,13 @@ I'm currently working as a data officer at Collateral Repair Project, My respons
 <h1><a href="https://github.com/MohamedSuwan/Weather-Data" target="_blank">Historical Weather Data Analysis</a> <i class="fa-solid fa-sun-plant-wilt"></i></h1>
  
  <h3>
+  <pre style="white-space: pre-wrap;">
 As an avid gardener I had to know the best time of year for agricultural activites, for example when grafting citrus trees, the best temperature at which citrus wounds heal is between (21°C and 29°C) according to fruitmentor.com<br>
-<br>
+
 knowing what the temperature and weather is like where I live gives me an idea in what I can or can't plant, graft, grow. I cant grow mangoes where i live because mangoes are freeze sensitive and require humid and warm weather all year round
   
- <br>
-  <br>
-  The following are the steps I took to make this project from collecting the data to visualizing
- </h3>
-  <br>
- 
-<h3>
- <ul class="nor">
-  <li>Web Scraping: scraping the historical hourly data from a website using
+The following are the steps I took to make this project from collecting the data to visualizing
+<ul style=" padding-left: 2em;"><li>Web Scraping: scraping the historical hourly data from a website using
 Selenium</li>
   <li>Data cleansing: cleaning, modifying using regular expression, and
 converting the data into a CSV file for better handling</li>
@@ -164,14 +139,11 @@ converting the data into a CSV file for better handling</li>
 useful data for visualization and reporting using pandas and Matplotlib</li>
   <li>Power BI Dashboard: telling the story through visuals</li>
 </ul> 
- 
-
-<br>
-    </h3>
+</pre>
+</h3>
 
 <!-- ....................................................................................... sub div 1.1 -->
- 
-      
+
 <div class="cardimg">
   
   <iframe src="notebook/data Visualization.html" class="thumbnail" title="Weather Notebook" width="100%" height="350" style="border:0-moz-border-radius 10px;border-radius: 10px;">
@@ -437,7 +409,9 @@ In conclusion this subreddit is mainly introvert single brown-eyed young men who
       once: true,
     });
   </script>
-  <script> function resizeText() { const dynamicText = document.querySelector('.dynamic-text'); const viewportHeight = window.innerHeight; dynamicText.style.fontSize = (viewportHeight / 45) + 'px'; } window.addEventListener('resize', resizeText); window.addEventListener('load', resizeText); </script>
+
+<script> function scaleFontSize(factor) { const elements = document.querySelectorAll('body *'); elements.forEach(element => { const computedStyle = window.getComputedStyle(element); const currentFontSize = parseFloat(computedStyle.fontSize); const newFontSize = currentFontSize * factor; element.style.fontSize = newFontSize + 'px'; }); } if (window.innerWidth <= 768) { scaleFontSize(1.5);  } window.addEventListener('resize', () => { if (window.innerWidth <= 768) { scaleFontSize(1.5); } else { scaleFontSize(1); } }); </script>
+
   <script src="particles.js"></script>
   <script src="app.js"></script>
 </body>

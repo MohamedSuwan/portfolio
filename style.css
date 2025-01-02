@@ -2,14 +2,22 @@ html {
   scroll-behavior: smooth;
 }
 
+:root {
+  background-color: #0D1117;
+  margin: 0;
+}
+
+
 .arrows {
 	width: 60px;
 	height: 72px;
 	position: absolute;
 	left: 50%;
 	margin-left: -30px;
-	bottom: 20px;
+	bottom: 30px;
 }
+
+
 
 .arrows path {
 	stroke: #2994D1;
@@ -37,76 +45,50 @@ html {
 
 .arrows path.a1 {
 	animation-delay:-1s;
-	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+	-webkit-animation-delay:-1s;
 }
 
 .arrows path.a2 {
 	animation-delay:-0.5s;
-	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+	-webkit-animation-delay:-0.5s;
 }
 
 .arrows path.a3 {	
 	animation-delay:0s;
-	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+	-webkit-animation-delay:0s; 
 }
 
 
 #particles-js{
   width: auto;
   height: 100vh;
-  /* background-image: url(logo.png); */
 }
-
-.about{
-  margin-right: 10px;
-  margin-left: 100px;
-  margin-top: 15px;
-  position: absolute;
-  left: 30%;
-  top: 10%;
-    /* transform: translate(-58%,-40%);  */
-  font-size: 17px;
-  /* background-color: rgba(5, 26, 60, 0.25); */
-  background: linear-gradient(to right, #0d1117ff, #0d111740);
-  border-left: 1px solid rgb(255, 255, 255);
-  padding-left: 10px;
-
-}
-
 
 .h11{
-  /* width: 70%; */
- 
   position: absolute;
-  left: 20%;
+  left: 50%;
   top: 50%;
     transform: translate(-58%,-70%); 
-  font-size: 50px;
+  font-size: 60px;
 
 }
 .h21{
-  /* width: 70%; */
- 
   position: absolute;
-  left: 10%;
+  left: 50%;
   top: 60%;
   transform: translate(-50%,-50%); 
 
 }
 .h22{
-  /* width: 70%; */
- 
   position: absolute;
-  left: 20%;
+  left: 40%;
   top: 60%;
   transform: translate(-50%,-50%); 
 
 }
-.h23{
-  /* width: 70%; */
- 
+.h23{ 
   position: absolute;
-  left:30%;
+  left: 60%;
   top: 60%;
   transform: translate(-50%,-50%); 
 
@@ -123,8 +105,6 @@ html {
 }
 
 .leftdiv {
-  /* box-shadow: 0px 0px 0px 1px rgb(255, 255, 255); */
-/* transition: 0.3s; */
 width: 70%;
 border-radius: 10px;
 margin-left: auto;
@@ -183,7 +163,6 @@ transition-timing-function: ease;
 -webkit-transition-timing-function: ease; 
 } 
 
-/*change the number below to scale to the appropriate size*/ 
 .thumbnail:hover { 
 transform: scale(1.5); 
 }
@@ -222,73 +201,11 @@ a:hover {
   color: #58A6FF;
 }
 
-:root {
-  background-color: #0D1117;
-  margin: 0;
-  /* padding-top: 20px; */
-  
-}
-/* 
-div.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: yellow;
-  padding: 10px 20px 50px 40px;
-  font-size: 20px;
-  margin: 20px;
-  margin-left: auto;
-margin-right: auto;
-
-
-
-} */
-
-
-
-
 body{ 
 margin: 0;
 background-size: cover;  
 font-family: 'Source Sans Pro', sans-serif;
 } 
-
-
-/* .left-third {
-  width: 33.33%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ffffff;
-  padding-left: 20px;
-  padding-right: 20px;
-  transform: translate(5%,7%); 
-
-
-} */
-
-/* .right-two-thirds {
-  border-left: 1px solid rgb(255, 255, 255);
-  width: 66.67%;
-  padding-left: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: #ffffff;
-
- 
-}
-
-.cont {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
- */
-
-
 
 
 header {
@@ -306,16 +223,8 @@ header {
   left: 0px;
   right: 0px;
   z-index: 1000;
-
-  /* padding-left: 20px; */
-  /* border: 2px solid rgb(255, 255, 255); */
   box-shadow: 0 0 25px 0 #58A6FF;
 }
-
-/*           ,,,,,,,,,,,,,,,, */
-
-
-
 
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
@@ -326,25 +235,6 @@ header {
   box-sizing: border-box;
 }
 
-
-
-
-
-/* header {
-  padding: 0 20px;
-  background-color: #1d1f1d;
-  height: 50px;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 50px;
-} */
-
-/* #mydiv{
-  display: flex;
-  align-items: center;
-  max-width: 100%;
-  max-height: 100%;
-} */
 
 
 #brand img{
@@ -459,17 +349,12 @@ header {
     display: block;
   }
 }
-.nor li {
-  margin-left:40px ;
-  
-}
 
 pre ul li {
-  margin-bottom: -20px;
-  /* Define the margin for list items inside <pre> */
-}
+  margin-bottom: -20px;}
 
-
+/* for icons */
 i {
 padding: 15px;
 }
+
