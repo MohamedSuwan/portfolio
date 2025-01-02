@@ -53,6 +53,7 @@ html {
 
 #particles-js{
   width: auto;
+  /* height: 300vh; */
   height: 100vh;
   /* background-image: url(logo.png); */
 }
