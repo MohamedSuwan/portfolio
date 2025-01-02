@@ -52,7 +52,7 @@
   <div id="particles-js">
     <!-- 1 -->
     <h3 class="about">
-      <pre style="white-space: pre-wrap;">
+      <pre class="dynamic-text" style="white-space: pre-wrap;">
 Hi, my name is Mohamed, I hold a Bachelor’s degree in Computer Engineering.
 
 Fascinated by the challenge of uncovering hidden insights, I pursued a data analysis bootcamp and honed my skills in Python, SQL and Power BI.
@@ -437,6 +437,7 @@ In conclusion this subreddit is mainly introvert single brown-eyed young men who
       once: true,
     });
   </script>
+  <script> function resizeText() { const dynamicText = document.querySelector('.dynamic-text'); const viewportHeight = window.innerHeight; dynamicText.style.fontSize = (viewportHeight / 45) + 'px'; } window.addEventListener('resize', resizeText); window.addEventListener('load', resizeText); </script>
   <script src="particles.js"></script>
   <script src="app.js"></script>
 </body>
