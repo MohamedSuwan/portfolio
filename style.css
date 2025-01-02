@@ -88,13 +88,14 @@ html {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-58%, -70%);
+  /* transform: translate(-58%, -70%); */
+  transform: translate(-58%,-70%); 
   font-size: 60px;
 }
 
 
-@media screen and (max-width: 1080px) { .h11 { font-size: 80px;} }
-@media screen and (max-width: 1080px) { h3 { font-size: 25px;} }
+@media screen and (max-width: 1080px) { .h11 { font-size: 80px;left: 30vw;transform: translate(-25%, -50%);} }
+@media screen and (max-width: 1080px) { h3 { font-size: 24px;} }
 
 .h21 {
   position: absolute;
