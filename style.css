@@ -291,8 +291,14 @@ pre ul li {
   margin-bottom: -20px;
 }
 
-/* for icons */
-i {
+.block{
+  font-family: inherit; 
+  font-weight: inherit; 
+  letter-spacing: inherit;
+  white-space: pre-wrap;}
+
+
+i {/* for icons */
   padding: 15px;
 }
 
