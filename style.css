@@ -264,7 +264,7 @@ header {
   align-items: center;
 }
 
-.ul {
+nav ul {
   list-style: none;
   height: 100%;
   display: flex;
@@ -273,33 +273,27 @@ header {
 
 }
 
-.ul li {
+/* .ul li {
   padding: 5px;
   margin-left: 15px;
   border: 1px solid #ffffff;
   border-radius: 10px;
   align-self: center;
 
-}
-
+} */
+.ul li {transition: transform 0.5s; }
 .ul li:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
+  transform: scale(1.3);
+  transition: 0.5s;
 }
 
-pre ul li {
+h3 ul li {
   margin-bottom: -20px;
 }
 
-.block{
-  font-family: inherit; 
-  font-weight: inherit; 
-  letter-spacing: inherit;
-  white-space: pre-wrap;}
-
-
+h3 ul{ padding-left: 2em;}
 i {/* for icons */
   padding: 15px;
 }
 
-/* mobile view */
+section{padding-top: 80px;}
